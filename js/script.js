@@ -36,13 +36,10 @@ const quotes = [
 /* function that will generate a random number and will use it to locate a
 random quote in the array and return it */
 
-function getRandomQuote(quotes) {
+function getRandomQuote(arr) {
 
-  let randomNumber = ''
-  randomNumber += Math.floor(Math.random() * quotes.length);
-  let randomQuote = quotes[randomNumber]
-
-  return randomQuote
+  const randomNumber = Math.floor(Math.random() * arr.length);
+  return arr[randomNumber]
 }
 
 /* function that will use the output of the getRandomQuote function and
