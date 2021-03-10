@@ -1,2 +1,5 @@
 # Techdegree-Project-1
- First project in Treehouse
+ My First project in Treehouse
+
+ I created a Random Quote generator with an array and several functions.
+ 
